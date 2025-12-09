@@ -7,7 +7,7 @@ from PIL import Image
 from torchvision import transforms
 from urllib import request
 
-model_name = os.getenv("MODEL_NAME", "hair_classifier_v1.onnx")
+model_name = os.getenv("MODEL_NAME", "hair_classifier_empty.onnx")
 
 def download_image(url):
     with request.urlopen(url) as resp:

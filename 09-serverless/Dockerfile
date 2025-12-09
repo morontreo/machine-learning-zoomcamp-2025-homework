@@ -1,4 +1,4 @@
-FROM agrigorev/model-2024-hairstyle:v3
+FROM agrigorev/model-2025-hairstyle:v1
 
 RUN pip install onnxruntime torchvision
 
