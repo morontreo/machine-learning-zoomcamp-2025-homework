@@ -23,22 +23,22 @@ A model like this would help them categorize the water as potable or not based o
 # Instruction on how to use
 
 ## Without Docker - Virtual Environment (uv)
-1- Open the Terminal/Command Prompt
-2- cd into folder "midterm"
-3- Execute the command: uv sync
-4- Execute the command: uv run uvicorn predict:app --host 0.0.0.0 --port 9696 --reload
-5- With the browser navigate to URL: http://localhost:9696/docs
-6- Expand the block "POST / predict" and do "Try it out"
-7- Enter the values you need in the different properties
-8- Click Execute to see the result
+1- Open the Terminal/Command Prompt <BR>
+2- cd into folder "midterm" <BR>
+3- Execute the command: uv sync <BR>
+4- Execute the command: uv run uvicorn predict:app --host 0.0.0.0 --port 9696 --reload <BR>
+5- With the browser navigate to URL: http://localhost:9696/docs <BR>
+6- Expand the block "POST / predict" and do "Try it out" <BR>
+7- Enter the values you need in the different properties <BR>
+8- Click Execute to see the result <BR>
 
 ## With Docker
-1- Open the Terminal/Command Prompt
-2- cd into folder "midterm"
-3- Execute the command: docker build -t water-potability-predictor .
-4- Wait for the previous step to be done
-5- Execute the command: docker run -it --rm -p 9696:9696 water-potability-predictor
-6- With the browser navigate to URL: http://localhost:9696/docs
-7- Expand the block "POST / predict" and do "Try it out"
-8- Enter the values you need in the different properties
-9- Click Execute to see the result
+1- Open the Terminal/Command Prompt <BR>
+2- cd into folder "midterm" <BR>
+3- Execute the command: docker build -t water-potability-predictor . <BR>
+4- Wait for the previous step to be done <BR>
+5- Execute the command: docker run -it --rm -p 9696:9696 water-potability-predictor <BR>
+6- With the browser navigate to URL: http://localhost:9696/docs <BR>
+7- Expand the block "POST / predict" and do "Try it out" <BR>
+8- Enter the values you need in the different properties <BR>
+9- Click Execute to see the result <BR>
